@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Luxurious+Roman&family=Luxurious+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'poppins';
+}
+body{
+margin: 0;
+padding: 0px;
+font-family: 'poppins';
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100vh, auto);
+}
+.card1{
+    background-image: url(/views/Assets/Lifes-Short-Drive-Luxurious-Exotic-Car-Rental-Near-Me-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+}
+.card2{
+    background-color: rgb(255, 255, 255);
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+    padding: 20px;
+}
+.login h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.login h6{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 20px ;
+}
+.login form input, label, a {
+    display: block;
+    margin:20px;
+    width : 80%;
+}
+.login form input {
+    padding: 15px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    background-color: #eeeeee9a;
+    color: #111111;
+    font-weight:300 ;
+}
+.login form label{
+    font-size: 25px;
+    font-weight: 300;
+}
+.login form input:focus{
+    border: 2px #cdcccc solid;
+    box-shadow: 0px 0px 5px 1px #8b8b8b4e;
+    outline: none;
+   
+}
+
+.login form input::placeholder{
+    color: #afafaf;
+    font-weight: 550;
+}
+.login form input[type="submit"]{
+color: #fff;
+background-color:#111111;
+font-size: 20px;
+font-weight: 500;
+height: 50px;
+border-radius: 0px;
+width: 85%;
+padding: 5px;
+}
+
+.login form input[type="checkbox"]{
+    display: flex;
+    padding: 0;
+    margin: 12;
+    width: auto;
+}
+a span {
+    text-decoration: none;
+    color: #F6BB4D;
+}
+a{ 
+    text-decoration: none;
+    color: #111111;
+} 
+/*
+.container{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
+    background-color: #111111;
+    color: #ffffff;
+    font-family: 'poppins';
+    border-radius: 20px;
+}
+.login{
+    
+    padding: 90px;
+    grid-row-start: 1 ;
+    grid-row-end: 2;
+    height: 100%;
+
+}
+h3{
+    font-weight: 350;
+    font-size: 50px;
+    padding: 5px;
+    margin: 0px;
+}
+h6{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+}
+form{
+    width: 50%;
+}
+form label {
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px 5px 0px 0px;
+    margin: 0px;
+}
+form input {
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px 5px 0px 0px;
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    border:1.5px solid #ffffff;
+    text-align:left;
+
+}
+.CBlabel{
+    display: inline-block;
+}
+.container .images{
+    background-color: #fff;
+}
+.container .images img{
+    width: 80%;
+    height: 80%;
+}
+.button{
+    color: #111111;
+    border: 0px ;
+    background-color:#F6BB4D;
+    width:100%;
+    height: 50px;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}*/
